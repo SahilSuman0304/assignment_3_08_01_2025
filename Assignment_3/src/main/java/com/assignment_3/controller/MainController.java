@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 	@GetMapping("/front_page")
 public String web_controller() {
-	return "Hello WOrld, Adil is dick";
+	return "Hello World";
 }
 }
